@@ -1,6 +1,6 @@
 [package]
 name = "texting-robots-py"
-version = "0.2.2-dev.0"
+version = "0.2.2"
 edition = "2024"
 description = "Python binding for Texting Robots"
 readme = "README.md"
