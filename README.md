@@ -3,6 +3,10 @@
 Python binding for the [Texting Robots](https://github.com/Smerity/texting_robots) `robots.txt` parser.
 Refer to that project for details.
 
+```
+pip install texting-robots-py
+```
+
 ## Usage
 
 ```python
