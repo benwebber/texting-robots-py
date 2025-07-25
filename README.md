@@ -1,6 +1,6 @@
 # texting-robots-py
 
-Python binding for [Texting Robots](https://github.com/Smerity/texting_robots).
+Python binding for the [Texting Robots](https://github.com/Smerity/texting_robots) `robots.txt` parser.
 Refer to that project for details.
 
 ## Usage
@@ -32,12 +32,12 @@ assert not robot.allowed('/rust')
 assert not robot.allowed('/forest/tree/snake.py')
 ```
 
-## Versions
+## Version numbering
 
-This project will follow the same version scheme as Texting Robots.
-That is, version 0.2.2 of this project corresponds to the same version of the Rust library.
+The version of this project will equal the version of Texting Robots it depends on. For example, version 0.2.2 of `texting-robots-py` depends on version 0.2.2 of the `texting_robots` crate.
+
 If necessary, this project will use [post releases](https://packaging.python.org/en/latest/specifications/version-specifiers/#post-releases) for changes specific to the Python package.
 
 ## Licence
 
-This project is dual-licensed under the Apache 2.0 and MIT licences, just like Texting Robots.
+This project is licensed under both the Apache 2.0 and MIT licences.
