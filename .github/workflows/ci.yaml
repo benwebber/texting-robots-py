@@ -160,7 +160,9 @@ jobs:
 
   release:
     name: Release
-    environment: pypi
+    environment:
+      name: pypi
+      url: https://pypi.org/project/texting-robots-py/
     runs-on: ubuntu-latest
     if: ${{ startsWith(github.ref, 'refs/tags/') || github.event_name == 'workflow_dispatch' }}
     needs: [linux, musllinux, windows, macos, sdist]
